@@ -1,0 +1,244 @@
+@media (max-width: 1350px) {
+    .menu__list{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1230px) {
+
+    html{
+        font-size: 16px;
+    }
+
+    .menu__nav,
+    .menu{
+        height: 50px;
+    }
+
+    .header__btns-container{
+        position: absolute;
+        z-index: 1000;
+    }
+    
+    .menu__list{
+        position: fixed;
+        left: 0;
+        top: -300px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        height: 300px;
+        background: rgba(3, 56, 244, .9);
+        column-gap: 5px;
+        z-index: 5;
+        gap: 1rem;
+        transition: top .5s ease-in;
+    }
+
+    .menu__link{
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .burger-container{
+        display: block;
+        z-index: 10;
+    }
+
+    #toggle-menu:checked~ .burger-menu__button > span{
+        transform: rotate(45deg);
+    }
+
+    #toggle-menu:checked~ .burger-menu__button > span::before{
+        top:0;
+        transform: rotate(0);
+    }
+    
+    #toggle-menu:checked~ .burger-menu__button > span::after{
+        top:0;
+        transform: rotate(90deg);
+    }
+}
+
+@media (max-width: 970px) {
+    html{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 925px) {
+    .logo{
+        flex-direction: column;
+        align-items: center;
+    }
+    h1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aside{
+        min-width: 40%;
+    }
+
+}
+
+@media (max-width: 850px) {
+    h1{
+        display: block;
+    }
+
+    main{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .details-container{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin-bottom: 10px;
+    }
+
+    .article-container{
+        margin-right: 0;
+    }
+
+    .hobbies__container{
+        flex-direction: row;
+    }
+
+    .personal-details__list,
+    .contacts__list,
+    .language__list{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .my-projects__container_img{
+        position: static;
+        max-height: auto;
+        overflow: none;
+    }
+       
+    .my-projects__text{
+        position: static;
+        width: 100%;
+        height: auto;
+        line-height: 2.25rem;
+        font-size: 1.5rem;
+        opacity: 1;
+        transition: none;
+    }
+}
+
+@media (max-width: 620px) {
+    html{
+        font-size: 12px;
+    }
+
+    .hobbies__item{
+        width: 50px;
+    }
+
+    .details-container{
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 550px) {
+    h1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills__item{
+        max-width: 100px;
+    }
+    .donut{
+        width: 100px;
+        height: 100px
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .my-projects__text{
+        line-height: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .logo{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .code{
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .certificates__item-wrapper{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .hobbies__container figure{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .code{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .example__list{
+        padding: 0;
+        list-style: none;
+    }
+
+    .example__list li{
+        margin-bottom: 1rem;
+    }
+
+    .skills__list{
+        row-gap: 5px;
+    }
+
+    .skills__item{
+        max-width: 50px;
+    }
+    .donut{
+        width: 50px;
+        height: 50px
+    }
+    
+}
+
+@media (max-width: 375px) {
+
+
+    .code{
+        font-size: 12px;
+    }
+    .hobbies__item{
+        width: 30px;
+    }
+    .hobbies__container{
+        flex-direction: column;
+    }
+}
