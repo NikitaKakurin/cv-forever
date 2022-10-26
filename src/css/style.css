@@ -321,6 +321,12 @@ h3{
 /* _____________My projects end____________ */
 
 /* _____________Skills start____________ */
+.svg-logo__react {
+  transform: translate(23%, 22%);
+}
+.svg-logo__tailwind {
+  transform: translate(23%, 20%);
+}
 
 .svg-logo__html5{
     transform: translate(23%,28%) ;

@@ -1,5 +1,9 @@
 const i18Obj = {
     "en":{
+        "qpick":'APP "qpick"',
+        "race":'APP "async-race"',
+        "store":'APP "online-store"',
+        "news":'APP "News-api"',
         "contactsLink":"contacts",
         "aboutLink":"about me",
         "educationLink": "education",
@@ -47,6 +51,10 @@ const i18Obj = {
         "author":"Author: Kakurin Nikita",
     },
     "ru":{
+        "qpick":'APP "qpick"',
+        "race":'APP "async-race"',
+        "store":'APP "online-store"',
+        "news":'APP "News-api"',
         "contactsLink":"контакты",
         "aboutLink":"обо мне",
         "educationLink": "образование",
