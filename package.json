@@ -11,8 +11,8 @@
     "watch": "set NODE_ENV=development&&webpack --mode development --watch"
   },
   "browserslist": [
-    ">0.2%",
-    "last 2 versions",
+    ">25%",
+    "last 4 versions",
     "not dead"
   ],
   "repository": {
