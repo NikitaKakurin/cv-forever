@@ -2,7 +2,7 @@
   "name": "cv2022q1",
   "version": "1.0.0",
   "description": "CV",
-  "private":true,
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "set NODE_ENV=development&&webpack serve",
